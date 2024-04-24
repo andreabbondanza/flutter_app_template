@@ -11,6 +11,7 @@ class Messages {
           backgroundColor: Colors.orange,
           textColor: Colors.white,
           fontSize: 16.0);
+
   static void showSuccess(String msg, {bool isShort = false}) =>
       Fluttertoast.showToast(
           msg: msg,
@@ -20,6 +21,7 @@ class Messages {
           backgroundColor: Colors.green[800],
           textColor: Colors.white,
           fontSize: 16.0);
+
   static void showError(String msg, {bool isShort = false}) =>
       Fluttertoast.showToast(
           msg: msg,
